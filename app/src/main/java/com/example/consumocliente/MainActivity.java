@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Llamar a la función que realiza la solicitud HTTP
-                new HttpRequestTask().execute("http://192.168.56.1:3000/mensaje"); // Usar 10.0.2.2 para localhost
+                new HttpRequestTask().execute("http://192.168.56.1:3000/mensaje");
             }
         });
     }
